@@ -1,0 +1,17 @@
+.app__mainlayout {
+  display: grid;
+  grid-template-areas:
+    "header"
+    "main";
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.app__header {
+  grid-area: header;
+}
+
+.app__main {
+  grid-area: main;
+  min-height: calc(100vh - var(--header-height));
+}

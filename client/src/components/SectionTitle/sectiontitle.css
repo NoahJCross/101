@@ -1,0 +1,6 @@
+.app__sectiontitle {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  background-color: var(--title-header);
+  color: var(--secondary-color);
+}

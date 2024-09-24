@@ -1,0 +1,36 @@
+.app__card {
+  max-width: 300px;
+  width: 100%;
+  border: 2px solid var(--offwhite-color);
+  border-radius: 0.375rem;
+  overflow: hidden;
+}
+
+.app__card img {
+  width: 100%;
+  aspect-ratio: 1.788888/1;
+}
+
+.app__card-body {
+  padding: 0.5rem;
+}
+
+.app__card-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.app__card-desc {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.app__card-stars {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}

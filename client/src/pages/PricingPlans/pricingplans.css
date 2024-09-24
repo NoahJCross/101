@@ -1,0 +1,11 @@
+.app__pricingplans {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.app__pricingplans-table {
+  padding: 4rem 0;
+  background-color: #fff;
+  margin-top: 6rem;
+}

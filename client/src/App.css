@@ -1,0 +1,48 @@
+.form-title {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.app__questionform label,
+.app__articleform label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 1.25em;
+  font-weight: bold;
+}
+
+.form-title label {
+  margin-bottom: 0;
+}
+
+.form-control {
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  border: 1px solid var(--offwhite-color);
+  background-color: white;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+textarea.form-control {
+  resize: vertical;
+}
+
+.form-btn-container {
+  display: flex;
+  justify-content: end;
+}
+
+.text-desc {
+  color: gray;
+  font-size: 12px;
+}
+
+.box-shadow {
+  box-shadow: 0 6px 8px -4px rgba(0, 0, 0, 0.1), 0 -6px 8px -4px rgba(0, 0, 0, 0.1);
+}

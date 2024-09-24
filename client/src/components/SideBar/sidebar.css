@@ -1,0 +1,27 @@
+.app__sidebar {
+  z-index: 9999;
+  position: absolute;
+  top: calc(0% + var(--header-height));
+  right: -16px;
+  width: 250px;
+  background-color: var(--white-color);
+  border: 1px solid var(--offwhite-color);
+  border-radius: 0 0 5px 5px;
+}
+
+.app__header-navmenu.active {
+  display: block;
+}
+
+.app__sidebar-navitem a {
+  display: block;
+  font-weight: bold;
+  width: 100%;
+  padding: 1rem 2rem;
+  color: var(--secondary-color);
+  cursor: pointer;
+}
+
+.app__sidebar-navitem a:hover {
+  background-color: var(--white-hover);
+}

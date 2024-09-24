@@ -1,0 +1,31 @@
+.app__featuredview {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.app__featuredview h1 {
+  font-size: 32px;
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.app__featuredview-cards {
+  display: flex;
+  gap: 3rem;
+  justify-content: space-between;
+  max-width: 1000px;
+  width: 100%;
+}
+
+.app__featuredview > button {
+  margin-top: 1rem;
+  padding: 0.5rem 1.5rem;
+  border: 2px solid var(--offwhite-color);
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.app__featuredview > button:hover {
+  background-color: var(--primary-hover);
+}

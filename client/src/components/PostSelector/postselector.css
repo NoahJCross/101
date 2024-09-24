@@ -1,0 +1,19 @@
+.app__postselector {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  gap: 2rem;
+}
+
+.app__postselector > label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.app__postselector input[type="radio"] {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 0.5rem;
+  cursor: pointer;
+}
